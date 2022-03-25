@@ -43,7 +43,7 @@ export default {
     },
     methods: {
         async add() {
-          let add= await axios.post("https://my-json-server.typicode.com/mohamedgaballah99/resturantapi/resturant",{
+          let add= await axios.post("http://localhost:3000/resturant",{
             name:this.resturant.name,
             contact:this.resturant.contact,
             address:this.resturant.address
