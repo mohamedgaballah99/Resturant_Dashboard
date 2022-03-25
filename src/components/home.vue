@@ -80,7 +80,7 @@ export default {
         },
         async deleteresturant(id){
             
-           let result = await axios.delete('https://my-json-server.typicode.com/mohamedgaballah99/resturantapi/resturant/'+id)
+           let result = await axios.delete('http://localhost:3000/resturant/'+id)
            console.log(result);
            if (result.status==200) {
                this.loaddata()
@@ -95,7 +95,7 @@ export default {
                 name: 'SignUp'
             })
         }
-        let result = await axios.get('https://my-json-server.typicode.com/mohamedgaballah99/resturantapi/resturant')
+        let result = await axios.get('http://localhost:3000/resturant')
         this.resturant = result.data        
         }
     },
