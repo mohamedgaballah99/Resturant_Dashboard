@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "Gaballah",
+      "email": "m@m.com",
+      "password": "111",
+      "id": 1
+    }
+  ],
+  "resturant": [
+    {
+      "name": "Resturant 223",
+      "contact": "66443",
+      "address": "Cairo",
+      "id": 1
+    }
+  ]
+}
