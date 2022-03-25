@@ -1,4 +1,4 @@
-# resturant-project
+# Resturant_Dashboard
 
 ## Project setup
 ```
@@ -9,7 +9,14 @@ npm install
 ```
 npm run serve
 ```
-
+### Setup Json Server in Localhost
+```
+npm i json-server
+```
+### Run Json Server in Localhost
+```
+json-server --watch db.json
+```
 ### Compiles and minifies for production
 ```
 npm run build
