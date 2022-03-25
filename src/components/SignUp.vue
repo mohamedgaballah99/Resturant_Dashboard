@@ -35,7 +35,7 @@ export default {
         //post => 201
         //get => 200
         
-      let result = await axios.post("https://my-json-server.typicode.com/mohamedgaballah99/resturantapi/users", {
+      let result = await axios.post("http://localhost:3000/users", {
         name: this.name,
         email: this.email,
         password: this.password,
