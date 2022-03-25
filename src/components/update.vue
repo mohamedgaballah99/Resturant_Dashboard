@@ -44,7 +44,7 @@ export default {
     },
     methods: {
         async update() {
-            let update = await axios.put('https://my-json-server.typicode.com/mohamedgaballah99/resturantapi/resturant/' + this.$route.params.id, {
+            let update = await axios.put('http://localhost:3000/resturant/' + this.$route.params.id, {
                 name: this.resturant.name,
                 contact: this.resturant.contact,
                 address: this.resturant.address
@@ -70,7 +70,7 @@ export default {
                 name: 'SignUp'
             })
         }
-        let result = await axios.get('https://my-json-server.typicode.com/mohamedgaballah99/resturantapi/resturant/' + this.$route.params.id)
+        let result = await axios.get('http://localhost:3000/resturant/' + this.$route.params.id)
         this.resturant = result.data
     },
 };
