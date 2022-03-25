@@ -5,6 +5,12 @@
       "email": "m@m.com",
       "password": "111",
       "id": 1
+    },
+    {
+      "name": "bbb",
+      "email": "v",
+      "password": "1",
+      "id":2
     }
   ],
   "resturant": [
@@ -13,6 +19,12 @@
       "contact": "66443",
       "address": "Cairo",
       "id": 1
+    },
+     {
+      "name": "KFC 223",
+      "contact": "4433",
+      "address": "giza",
+      "id":2
     }
   ]
 }
